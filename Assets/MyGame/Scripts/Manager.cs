@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
@@ -15,7 +13,6 @@ public class Manager : MonoBehaviour
 
     public void SchrankeEins()
     {
-        Debug.Log("S1");
         if(open1 != true)
         {
             schranke1.transform.position = new Vector2(0, 5.5f);
@@ -29,7 +26,6 @@ public class Manager : MonoBehaviour
     }
     public void SchrankeZwei()
     {
-        Debug.Log("S2");
         if (open2 != true)
         {
             schranke2.transform.position = new Vector2(0, -5.5f);
